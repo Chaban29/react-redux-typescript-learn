@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from './store/rootReducer';
-import { CashActions } from './store/cashReducer';
-import { CustomerActions } from './store/customerReducer';
+import { RootState } from '../../store/rootReducer/rootReducer';
+import { CashActions } from '../../store/cashReducer/cashReducer';
+import { CustomerActions } from '../../store/customerReducer/customerReducer';
 
 export const AppComponent: FC = () => {
   const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import { cashReducer } from './cashReducer';
-import { customerReducer } from './customerReducer';
-import { counterReducer } from './counterReducer';
+import { cashReducer } from '../cashReducer/cashReducer';
+import { customerReducer } from '../customerReducer/customerReducer';
+import { counterReducer } from '../counterReducer/counterReducer';
 
 const rootReducer = combineReducers({
   cash: cashReducer,
